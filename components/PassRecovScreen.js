@@ -21,7 +21,7 @@ const PassRecovScreen = ({ navigation }) => {
         <Text style={styles.buttonText}>Send Recovery Link</Text>
       </TouchableOpacity>
       
-      <TouchableOpacity onPress={() => navigation.navigate('SignUpScreen')}>
+      <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
         <Text style={styles.linkText}>Back to Sign Up</Text>
       </TouchableOpacity>
     </View>
